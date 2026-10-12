@@ -1,0 +1,6 @@
+{
+  "name": "The New York Times — Editorial Mobile Reader",
+  "description": "Prestigious modern editorial news reader featuring top stories, audio briefings, midterm election trackers, opinion essays, daily games, and cooking recipes.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

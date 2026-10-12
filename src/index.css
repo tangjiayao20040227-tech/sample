@@ -1,0 +1,174 @@
+@import "tailwindcss";
+
+@theme {
+  --color-outline: #747878;
+  --color-secondary-fixed: #d1e4ff;
+  --color-surface-tint: #5f5e5e;
+  --color-surface-warm: #F7F7F5;
+  --color-on-error: #ffffff;
+  --color-on-secondary-container: #00497e;
+  --color-accent-breaking-red: #D90000;
+  --color-inverse-primary: #c8c6c5;
+  --color-surface-dim: #dadad8;
+  --color-surface-container-lowest: #ffffff;
+  --color-ink-secondary: #5A5A5A;
+  --color-on-background: #1a1c1b;
+  --color-tertiary-fixed: #ffdad4;
+  --color-surface-pure: #FFFFFF;
+  --color-error: #ba1a1a;
+  --color-accent-editorial-blue: #1B65A4;
+  --color-on-secondary-fixed-variant: #00497d;
+  --color-secondary-container: #7dbaff;
+  --color-surface-container: #eeeeec;
+  --color-ink-tertiary: #727272;
+  --color-primary-fixed: #e5e2e1;
+  --color-inverse-on-surface: #f1f1ef;
+  --color-ink-primary: #121212;
+  --color-on-secondary: #ffffff;
+  --color-on-secondary-fixed: #001d36;
+  --color-inverse-surface: #2f3130;
+  --color-background: #f9f9f7;
+  --color-on-tertiary-fixed-variant: #930000;
+  --color-tertiary-fixed-dim: #ffb4a8;
+  --color-surface-container-high: #e8e8e6;
+  --color-on-tertiary: #ffffff;
+  --color-tertiary: #000000;
+  --color-on-tertiary-container: #fe2c1c;
+  --color-on-primary-fixed: #1c1b1b;
+  --color-border-strong: #121212;
+  --color-on-primary: #ffffff;
+  --color-surface-bright: #f9f9f7;
+  --color-on-surface-variant: #444748;
+  --color-on-tertiary-fixed: #410000;
+  --color-on-primary-container: #858383;
+  --color-border-subtle: #E2E2E0;
+  --color-surface-variant: #e2e3e1;
+  --color-on-primary-fixed-variant: #474646;
+  --color-on-surface: #1a1c1b;
+  --color-surface-container-highest: #e2e3e1;
+  --color-error-container: #ffdad6;
+  --color-secondary: #1461a0;
+  --color-outline-variant: #c4c7c7;
+  --color-surface: #f9f9f7;
+  --color-primary-fixed-dim: #c8c6c5;
+  --color-on-error-container: #93000a;
+  --color-surface-container-low: #f4f4f2;
+  --color-primary-container: #1c1b1b;
+  --color-tertiary-container: #410000;
+  --color-secondary-fixed-dim: #9fcaff;
+  --color-primary: #000000;
+
+  --spacing-space-xxl: 2rem;
+  --spacing-space-xxs: 0.125rem;
+  --spacing-gutter: 1rem;
+  --spacing-space-sm: 0.5rem;
+  --spacing-space-xl: 1.5rem;
+  --spacing-space-lg: 1rem;
+  --spacing-margin: 1rem;
+  --spacing-margin-tablet: 1.5rem;
+  --spacing-space-md: 0.75rem;
+  --spacing-space-xs: 0.25rem;
+
+  --font-label-timestamp: "Libre Franklin", sans-serif;
+  --font-label-meta: "Libre Franklin", sans-serif;
+  --font-display-masthead: "Source Serif 4", Georgia, serif;
+  --font-headline-md: "Source Serif 4", Georgia, serif;
+  --font-headline-sm: "Source Serif 4", Georgia, serif;
+  --font-headline-xl: "Source Serif 4", Georgia, serif;
+  --font-label-section-badge: "Libre Franklin", sans-serif;
+  --font-body-reading-md: "Newsreader", Georgia, serif;
+  --font-caption: "Libre Franklin", sans-serif;
+  --font-body-summary: "Newsreader", Georgia, serif;
+  --font-headline-lg: "Source Serif 4", Georgia, serif;
+  --font-body-reading-lg: "Newsreader", Georgia, serif;
+
+  --text-label-timestamp: 11px;
+  --text-label-timestamp--line-height: 14px;
+  --text-label-timestamp--letter-spacing: 0.04em;
+  --text-label-timestamp--font-weight: 400;
+
+  --text-label-meta: 12px;
+  --text-label-meta--line-height: 16px;
+  --text-label-meta--font-weight: 500;
+
+  --text-display-masthead: 30px;
+  --text-display-masthead--line-height: 36px;
+  --text-display-masthead--letter-spacing: -0.02em;
+  --text-display-masthead--font-weight: 700;
+
+  --text-headline-md: 19px;
+  --text-headline-md--line-height: 25px;
+  --text-headline-md--letter-spacing: -0.01em;
+  --text-headline-md--font-weight: 600;
+
+  --text-headline-sm: 17px;
+  --text-headline-sm--line-height: 22px;
+  --text-headline-sm--font-weight: 600;
+
+  --text-headline-xl: 26px;
+  --text-headline-xl--line-height: 32px;
+  --text-headline-xl--letter-spacing: -0.015em;
+  --text-headline-xl--font-weight: 700;
+
+  --text-label-section-badge: 11px;
+  --text-label-section-badge--line-height: 14px;
+  --text-label-section-badge--letter-spacing: 0.08em;
+  --text-label-section-badge--font-weight: 700;
+
+  --text-body-reading-md: 16px;
+  --text-body-reading-md--line-height: 24px;
+  --text-body-reading-md--font-weight: 400;
+
+  --text-caption: 12px;
+  --text-caption--line-height: 17px;
+  --text-caption--font-weight: 400;
+
+  --text-body-summary: 15px;
+  --text-body-summary--line-height: 22px;
+  --text-body-summary--font-weight: 400;
+
+  --text-headline-lg: 22px;
+  --text-headline-lg--line-height: 28px;
+  --text-headline-lg--letter-spacing: -0.01em;
+  --text-headline-lg--font-weight: 700;
+
+  --text-body-reading-lg: 18px;
+  --text-body-reading-lg--line-height: 28px;
+  --text-body-reading-lg--font-weight: 400;
+}
+
+@layer base {
+  html, body {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f7;
+    color: #1a1c1b;
+    -webkit-font-smoothing: antialiased;
+  }
+  body {
+    overscroll-behavior-y: none;
+    min-height: max(884px, 100dvh);
+  }
+  .pb-safe {
+    padding-bottom: env(safe-area-inset-bottom, 0px);
+  }
+  .pt-safe {
+    padding-top: env(safe-area-inset-top, 0px);
+  }
+  main > :first-child {
+    margin-top: 0 !important;
+  }
+  main > :last-child {
+    margin-bottom: 0 !important;
+  }
+}
+
+.no-scrollbar::-webkit-scrollbar,
+::-webkit-scrollbar {
+  display: none;
+}
+.no-scrollbar {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
